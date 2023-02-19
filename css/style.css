@@ -238,6 +238,7 @@ article {
   font-size: 13px;
   line-height: 16px;
   text-transform: uppercase;
+  margin-top: 10px;
 
   color: #004e35;
 }
@@ -246,6 +247,7 @@ article {
   font-weight: 400;
   font-size: 24px;
   line-height: 29px;
+  margin-top: 15px;
 
   color: #004e35;
 }
@@ -480,7 +482,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 1000px) {
   .header-container {
     margin-bottom: 20px;
   }
@@ -557,6 +559,7 @@ footer {
     width: 100%;
     flex-direction: column;
     justify-content: center;
+    margin-top: 
   }
   .follow-media-text {
     justify-content: center;
@@ -579,6 +582,19 @@ footer {
     justify-content: center;
     text-align: center;
   }
+  .latest-updates-data{
+    margin-top: 10px;
+  }
+  .latest-updates-text{
+    text-align: center;
+  }
+  .latest-updates-credits{
+    text-align: center;
+    margin-top: 15px;
+  }
+  body{
+    overflow-x: hidden;
+  }    
 }
 @media screen and (max-width: 660px) {
   .IMAGE-newway {
@@ -615,9 +631,10 @@ footer {
   }
   .our-mission-container{
     width: 100%;
+    padding: 10px;
   }
   .our-mission-title {
-    font-size: 40px;
+    font-size: 30px;
     width: 100%;
     line-height: 60px;
     margin-top: 20px;
@@ -632,14 +649,14 @@ footer {
     margin-top: 10px;
     justify-content: center;
     width: 100%;
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 43px;
   }
   .our-mission-space{
     display: none;
   }
   .our-mission-text-end{
-    font-size: 21px;
+    font-size: 15px;
     width: 100%;
     margin-bottom: 25px;
   }
@@ -647,8 +664,11 @@ footer {
     width: 100%;
   }
   .our-platform-title{
-    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
     width: 100%;
+    margin: auto;
   }
   .our-platform-text{
     font-size: 25px;
@@ -665,6 +685,15 @@ footer {
     justify-content: center;
     text-align: center;
   }
+  .latest-updates-data{
+    margin-top: 10px;
+  }
+  .latest-updates-text{
+    text-align: center;
+  }
+  .latest-updates-credits{
+    text-align: center;
+  }
   .follow-media-text{
     font-size: 27px;
   }
@@ -678,7 +707,8 @@ footer {
     width: 100%;
   }
   .footer-text{
-    font-size: 12px;
+    font-size: 10px;
+    margin-bottom: 10px;
   }
   .foot{
     display: none;
@@ -687,10 +717,20 @@ footer {
     overflow-x: hidden;
   }  
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 450px) {
   .Image-last {
     width: 250px;
     height: 200px;
+  }
+  .follow-media-text{
+    font-size: 23px;
+  }
+  .latest-updates-title{
+    font-size: 60px;
+    line-height: 70px;
+  }
+  .next-platform-title{
+    font-size: 50px;
   }
 }
 /* Media end */
