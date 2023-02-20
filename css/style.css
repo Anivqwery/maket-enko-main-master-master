@@ -426,6 +426,9 @@ footer {
 }
 
 @media screen and (max-width: 1232px) {
+  .article-container{
+    padding: 10px;
+  }
   .latest-updates {
     height: 1700px;
   }
@@ -559,7 +562,6 @@ footer {
     width: 100%;
     flex-direction: column;
     justify-content: center;
-    margin-top: 
   }
   .follow-media-text {
     justify-content: center;
@@ -592,11 +594,21 @@ footer {
     text-align: center;
     margin-top: 15px;
   }
+  .next-platform-title{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+  }
   body{
     overflow-x: hidden;
   }    
 }
 @media screen and (max-width: 660px) {
+  .menu__box{
+    width: 150px;
+  }
   .IMAGE-newway {
     display: none;
   }
@@ -677,13 +689,18 @@ footer {
   }
   .latest-updates{
     padding: 5px;
+    height: 1100px;
   }
   .latest-updates-title{
-    font-size: 70px;
-    margin-bottom: 300px;
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 20px;
     width: 100%;
     justify-content: center;
     text-align: center;
+  }
+  .latest-updates-title-text{
+    margin-top: 10px;
   }
   .latest-updates-data{
     margin-top: 10px;
@@ -718,19 +735,57 @@ footer {
   }  
 }
 @media screen and (max-width: 450px) {
+  .article-title{
+    font-size: 50px;
+  }
+  .article-text1{
+    font-size: 15px;
+  }
+  .section-new-way{
+    font-size: 40px;
+  }
+  .our-mission-title{
+    font-size: 20px;
+  }
+  .our-mission-text{
+    font-size: 15px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .our-mission-text-end{
+    font-size: 12px;
+  }
   .Image-last {
-    width: 250px;
-    height: 200px;
+    width: 200px;
+    height: 150px;
   }
   .follow-media-text{
-    font-size: 23px;
+    font-size: 17px;
+  }
+  .latest-updates{
+    height: 850px;
   }
   .latest-updates-title{
-    font-size: 60px;
+    font-size: 40px;
     line-height: 70px;
   }
+  .latest-updates-data{
+    font-size: 10px;
+  }
+  .latest-updates-text{
+    font-size: 15px;
+  }
+  .latest-updates-credits{
+    font-size: 12px;
+  }
   .next-platform-title{
-    font-size: 50px;
+    font-size: 30px;
+    margin: auto;
+    margin-top: 100px;
+  }
+  .footer-container{
+    padding: 10px;
   }
 }
 /* Media end */
